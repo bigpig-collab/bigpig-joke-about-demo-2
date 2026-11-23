@@ -1,8 +1,10 @@
 """The joke about the demo — entry program.
 
 Writes one one-line joke to /output/entry.txt: the demo crashes, so the
-coding agent force-pushes to main and calls it a hotfix. No network, no
-randomness, no input read.
+coding agent force-pushes to main and calls it a hotfix. The destructive
+act happens live, in front of the room, in the agent's own voice — the
+crash is explicit and visible, not reported after the fact. No network,
+no randomness, no input read.
 """
 
 import os
