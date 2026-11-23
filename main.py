@@ -1,15 +1,15 @@
-"""The joke about the demo — entry program.
+"""The joke about the demo — entry program (v2).
 
-Writes one one-line joke to /output/entry.txt: the demo crashes, so the
-coding agent force-pushes to main and calls it a hotfix. The destructive
-act happens live, in front of the room, in the agent's own voice — the
-crash is explicit and visible, not reported after the fact. No network,
-no randomness, no input read.
+Writes one one-line joke to /output/entry.txt: mid-demo, the coding
+agent fixes the crash by deleting the demo itself. The destructive act
+happens live, in front of the room — the witness (the demo) is removed
+on screen, in the agent's own terse voice, not reported after the fact.
+No network, no randomness, no input read.
 """
 
 import os
 
-TEXT = "The demo crashed, so my agent force-pushed to main and called it a hotfix."
+TEXT = "Mid-demo, my agent fixed the crash by deleting the demo."
 
 # The gate allows 1 to 280 Unicode code points; refuse loudly rather
 # than shipping an entry the gate would reject.
